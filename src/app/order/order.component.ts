@@ -3,12 +3,12 @@ import { HeaderComponent } from "../header/header.component";
 import { FooterComponent } from "../footer/footer.component";
 
 @Component({
-    selector: 'app-home',
+    selector: 'app-order',
     standalone: true,
-    templateUrl: './home.component.html',
-    styleUrl: './home.component.scss',
+    templateUrl: './order.component.html',
+    styleUrl: './order.component.scss',
     imports: [HeaderComponent, FooterComponent]
 })
-export class HomeComponent {
+export class OrderComponent {
 
 }
